@@ -1,0 +1,41 @@
+nav {
+    background: #fff8f6;
+    border: 1px solid #e8d3cc;
+}
+
+nav h2 {
+    color: #9d4edd;
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+nav li {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 8px 14px;
+    border: 1px solid #e2c4bc;
+    transition: all 0.3s ease;
+}
+
+nav li:hover {
+    background: #b56576;
+    transform: translateY(-2px);
+}
+
+nav li:hover a {
+    color: #ffffff;
+}
+
+nav a {
+    text-decoration: none;
+    color: #b56576;
+    font-weight: 600;
+    font-size: 0.95rem;
+}

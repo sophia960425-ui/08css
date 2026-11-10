@@ -1,0 +1,33 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    /* 粉咖質感漸層背景 */
+    background: linear-gradient(135deg, #fdfbf7 0%, #f4ede2 100%);
+    color: #4a3b32; /* 濃可可深色字體 */
+    line-height: 1.8;
+    padding: 30px 15px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* 讓各大語意區塊呈現立體粉咖卡片感 */
+header, nav, main, footer {
+    background: #ffffff;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(165, 115, 105, 0.08);
+    border: 1px solid #ebdcd0;
+}
+
+/* 頂部 Header 特別粉咖裝飾 */
+header {
+    background: linear-gradient(135deg, #fff5f3 0%, #faedeb 100%);
+    border-left: 6px solid #b56576;
+}
+
+@media (max-width: 768px) {
+    body { padding: 10px; }
+    header, nav, main, footer { padding: 20px; }
+}
